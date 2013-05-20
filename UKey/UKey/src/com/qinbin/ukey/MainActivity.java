@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
 
 	protected void onPause() {
 		timer.cancel();
-
+		super.onPause();
 	};
 
 	Timer timer;
